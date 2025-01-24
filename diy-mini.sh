@@ -140,8 +140,8 @@ cp -f $GITHUB_WORKSPACE/configfiles/mt7915_eeprom.bin package/base-files/files/l
 cp -f $GITHUB_WORKSPACE/configfiles/mt7916_eeprom.bin package/base-files/files/lib/firmware/mediatek/mt7916_eeprom.bin
 
 # 电工大佬的rtl8367b驱动资源包，暂时使用这样替换
-wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b.tar.gz
-tar -xvf rtl8367b.tar.gz
+# wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b.tar.gz
+# tar -xvf rtl8367b.tar.gz
 
 # openwrt主线rtl8367b驱动资源包，暂时使用这样替换
 # wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
