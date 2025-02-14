@@ -142,6 +142,8 @@ cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568-bdy-g18-pro.dts target/linux/rock
 # wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
 # tar -xvf rtl8367b-openwrt.tar.gz
 
+git clone --depth=1 https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a

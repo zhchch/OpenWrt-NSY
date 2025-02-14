@@ -147,6 +147,8 @@ cp -f $GITHUB_WORKSPACE/configfiles/mt7916_eeprom.bin package/base-files/files/l
 # wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
 # tar -xvf rtl8367b-openwrt.tar.gz
 
+git clone --depth=1 https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
