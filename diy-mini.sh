@@ -147,6 +147,7 @@ tar -xvf rtl8367b.tar.gz
 # wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
 # tar -xvf rtl8367b-openwrt.tar.gz
 
+# 定时限速插件
 git clone --depth=1 https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 
 
