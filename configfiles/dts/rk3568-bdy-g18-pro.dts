@@ -706,7 +706,7 @@
 };
 
 &uart2 {
-	status = "okay";
+	status = "disabled";
 };
 
 &pcie30_phy_grf {
