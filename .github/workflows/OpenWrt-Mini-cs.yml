@@ -89,12 +89,12 @@ jobs:
         df -hT
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
+        ls
         echo "当前路径" $(pwd)
         git checkout -b master-diy e457e2db3477c6694503c67a58cc84c42588502b
         ls
-        # cd ..
         echo "当前路径2" $(pwd)
-        ls
+        git branch
         echo "OPENWRT_PATH=$PWD" >> $GITHUB_ENV
         COMMIT_AUTHOR=$(git show -s --date=short --format="作者: %an")
         echo "COMMIT_AUTHOR=$COMMIT_AUTHOR" >> $GITHUB_ENV
