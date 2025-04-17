@@ -2,8 +2,8 @@ name: OpenWrt Mini cs
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 20 * * *
+  # schedule:
+    # - cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/xiaomeng9597/lede-backup.git
