@@ -13,7 +13,6 @@
 
 # rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/themes/luci-theme-design
-rm -rf feeds/luci/applications/luci-app-netdata
 
 
 # 拉取仓库文件夹
@@ -57,7 +56,6 @@ function git_sparse_clone() {
 
 
 # sed -i 's/github.com\/coolsnowwolf\/luci.git;openwrt-23.05/github.com\/xiaomeng9597\/luci.git;openwrt-23.05/g' feeds.conf.default
-git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 # git clone --depth=1 https://github.com/xiaomeng9597/luci-theme-design package/luci-theme-design
 
 # Themes
