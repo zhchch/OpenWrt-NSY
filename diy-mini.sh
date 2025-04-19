@@ -134,9 +134,6 @@ cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568-bdy-g18-pro.dts target/linux/rock
 
 # 集成 nsy_g68-plus WiFi驱动
 mkdir -p package/base-files/files/lib/firmware/mediatek
-cp -f $GITHUB_WORKSPACE/configfiles/WirelessDriver/mt7615_cr4.bin package/base-files/files/lib/firmware/mediatek/mt7615_cr4.bin
-cp -f $GITHUB_WORKSPACE/configfiles/WirelessDriver/mt7615_n9.bin package/base-files/files/lib/firmware/mediatek/mt7615_n9.bin
-cp -f $GITHUB_WORKSPACE/configfiles/WirelessDriver/mt7615_rom_patch.bin package/base-files/files/lib/firmware/mediatek/mt7615_rom_patch.bin
 cp -f $GITHUB_WORKSPACE/configfiles/WirelessDriver/mt7916_eeprom.bin package/base-files/files/lib/firmware/mediatek/mt7916_eeprom.bin
 
 # 电工大佬的rtl8367b驱动资源包，暂时使用这样替换
